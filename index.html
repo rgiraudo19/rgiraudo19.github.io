@@ -5,7 +5,14 @@
     </head>
     <body>
         <img src="http://alpestravel.com/wp-content/uploads/2016/08/Early-Bird.png">
-        <h1 style="font-size:36px"> Practice makes... </h1>
+        <h1 style="font-size:36px"> practice makes... </h1>
+        <script>
+        function GiveAdvice(){
+            var endings = ["the worm","your chickens before they hatch","your eggs in a basket","a feather flock together","a book by its cover","no place like home","choosers","the free lunch"];
+            var rand = Math.floor(Math.random() * endings.length);
+            document.getElementById("text").innerHTML = endings[rand];
+        }
+        </script>
         <button id="advice">advice?</button>
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <script src="main.js"></script>
