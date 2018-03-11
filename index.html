@@ -9,13 +9,13 @@
     <body>
         <img src="http://alpestravel.com/wp-content/uploads/2016/08/Early-Bird.png">
         <h1 style="font-size:48px"> practice makes... </h1> 
-         <p id ="text" style="font-size:36px"> </p>
+         <p id ="text" style="font-size:36px">perfect.</p>
         
         <button id=advice onclick="GiveAdvice()">advice?</button>
         
         <script>
         function GiveAdvice(){
-             var endings = ["the worm","your chickens before they hatch","your eggs in a basket","a feather flock together","a book by its cover","no place like home","choosers","the free lunch"];
+             var endings = ["the worm.","your chickens before they hatch.","your eggs in a basket.","a feather flock together.","a book by its cover.","no place like home.","choosers.","the free lunch."];
             var rand = Math.floor(Math.random() * endings.length);
             document.getElementById("text").innerHTML = endings[rand];
         }
