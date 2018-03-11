@@ -1,9 +1,33 @@
 img {
-    width: 500px;
+    width: 230px;
 }
 body {
     text-align: center;
-    font-family: "Comic Sans";
-    background-image: url(https://media.giphy.com/media/zm934vLvOWVa/giphy.gif);
-    color: black;
 }
+body {
+    text-align: center;
+    font-family: "Helvetica";
+    color: White;
+    background: black;
+    background: #009933;
+    background-position: left top;
+    background-size: cover;
+    background-image: url(http://cdn.abclocal.go.com/content/wpvi/images/cms/702551_630x354.jpg);
+    background-color: #cccccc
+}
+#advice {
+  border-radius: 14px;
+  background-color: #b3b3cc;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 5px #999;
+}
+
+#advice:hover {background-color: #8585ad}
+
+#advice:active {
+  background-color: #8585ad;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);}
